@@ -1,6 +1,11 @@
-var  player = window.prompt("Please enter a Username, otherwise a default one is entered for you.","Player 1"); 
+var  player = window.prompt("Please enter a Username, otherwise a default one is entered for you.","Player 1");
 var theme = "";
 var lastvisited_theme = ""; 
+var message_trigger="Tyler Borland";
+var birthday_trigger="Grandpa";
+var birthday_name="Gary Rewalt";
+var nickname ="Ty";
+var birthday_audio = document.getElementById("audio_test");
 
 function gameTitle()
 { 
@@ -8,16 +13,33 @@ function gameTitle()
 	$('#player_input').val(""); 
 	$('#Michael_number').val(""); 
 
-	if(player.length <= 10  && player.length >= 5)  {	
+
+
+ if(player == message_trigger || player == nickname)
+  {
+      document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
+      document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
+      document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
+      birthday_audio.play();
+	  window.alert("Hi "+player+" "+"You decided to play at this time"+Date()+" "+"Hope you have Fun");
+    
+}
+else if(player == birthday_trigger || player == birthday_name)
+ {
+     document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
+     document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
+     document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
+     window.alert("Hi"+" "+player+" "+" "+"Hope you have Fun playing my Guesing Game, Happy Birthday Love Michael");
+
+ }
+	 else if(player.length <= 15  && player.length >= 2)  {
 		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
 		document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
-		 document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme; 
-		window.alert("Success"); 
-	
-
+		 document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
+		 window.alert("Success");
 
 	}
-
+	 
 	else
 	{
 		
@@ -110,5 +132,3 @@ lastvisited_theme="Halloween Theme";
 	}
 
 }
-
-
