@@ -20,7 +20,7 @@ function gameTitle()
       document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
       document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
       document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
-      birthday_audio.play();
+      //birthday_audio.play();
 	  window.alert("Hi "+player+" "+"You decided to play at this time"+Date()+" "+"Hope you have Fun");
     
 }
