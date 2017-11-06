@@ -1,0 +1,98 @@
+/* Default theme */ 
+#test_theme_heading
+{
+	color:green; 
+
+}
+#test_player_heading
+{
+	color: white; 
+
+}
+#versus_player
+{ 
+	color: #fdeb00; 
+}
+.modal-header
+{
+	background-color: black; 
+	border-bottom: white 1px solid;
+}
+
+.modal-body
+{
+	background-color: black; 
+	color:#C62D42;
+}
+.modal-footer
+{
+	border-color: white; 
+	background-color: black;
+}
+.modal-content
+{
+	background-color: black; 
+}
+.close
+{
+	color: #fdeb00;
+}
+
+.close:hover
+{
+color:#C62D42;
+
+}
+
+.btn
+{
+	background-color:#C62D42;
+	color: #fdeb00; 
+	opacity:.8; 
+} 
+.btn:visited
+{
+	background-color:#C62D42;
+	color: #fdeb00; 
+	opacity:.8; 
+} 
+
+.btn:hover
+{
+	background-color:#C62D42;
+	color: #fdeb00; 
+	opacity:.5;
+} 
+.dropdown-menu
+{
+	background-color:#C62D42;
+	
+}
+
+.dropdown-item
+
+{
+	color: #fdeb00; 
+}
+.dropdown-menu:hover
+{
+	background-color:black;
+	
+}
+
+.dropdown-item:hover
+
+{
+	background:black;
+	color: #fdeb00; 
+	opacity:.5;
+}
+
+.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+
+	background-color:#C62D42;
+	color: #fdeb00; 
+	opacity:.5;
+}
+
+
