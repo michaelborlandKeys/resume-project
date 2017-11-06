@@ -21,7 +21,7 @@ function gameTitle()
       document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
       document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
       //birthday_audio.play();
-	  window.alert("Hi "+player+" "+"You decided to play at this time"+Date()+" "+"Hope you have Fun");
+	  window.alert("Hi "+player+" "+"You decided to play at this time"+" "+Date()+" "+"Hope you have Fun");
     
 }
 else if(player == birthday_trigger || player == birthday_name)
@@ -29,7 +29,7 @@ else if(player == birthday_trigger || player == birthday_name)
      document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
      document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
      document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
-     window.alert("Hi"+" "+player+" "+" "+"Hope you have Fun playing my Guesing Game, Happy Birthday Love Michael");
+     window.alert("Hi"+" "+player+" "+" "+"Hope you have Fun playing my Guessing Game, Happy Birthday Love Michael");
 
  }
 	 else if(player.length <= 15  && player.length >= 2)  {
