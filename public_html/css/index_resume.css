@@ -1,0 +1,63 @@
+
+.btn
+{ 
+	font-size: 12px; 
+    font-weight: bold; 
+    background-color:black;
+  	color: cornsilk;
+}
+#main_dropdown_header
+{
+		border:2px solid black;
+		background: #B20000; 
+		color:white;
+}
+
+.dropdown-menu
+{
+	background-color:lightgreen;
+	padding-top: 0px; 
+	text-decoration: none;
+	
+}
+.dropdown-menu ul
+{
+	padding:2px 2px;
+
+}
+
+.dropdown-menu li
+{
+	padding:3px;
+
+}
+
+.dropdown-menu a
+{
+	text-decoration:none;
+	color: black; 
+	padding: 3px 3px 3px 3px ;
+
+
+}
+.dropdown-header
+{
+
+	border:2px solid black;
+	background: darkgreen; 
+	color:white;
+
+}
+.dropdown-item:hover
+{
+	background-color: darkgrey; 
+	
+
+}
+.dropdown-item a:hover
+{
+	color: #6773EB;
+}
+
+
+
