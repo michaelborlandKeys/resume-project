@@ -19,13 +19,13 @@
     
              <ul class="dropdown-menu">
                  <li class="dropdown-header" id="main_dropdown_header">Developer's Resume Information</li>
-                    <li class="dropdown-item"><a href="about_resume.php">About Developer</a></li>
-                    <li class="dropdown-item"><a href="home.php">Home</a></li>
-                    <li class="dropdown-item"><a href="resume_experience.php">Experience</a></li> 
+                    <li class="dropdown-item"><a href="#">About Developer</a></li>
+                    <li class="dropdown-item"><a href="#">Home</a></li>
+                    <li class="dropdown-item"><a href="#">Experience</a></li> 
                  <li class="dropdown-header">Programs Originally Written in C#</li>
                     <li class="dropdown-item"><a href="guessing_game.php"> Michael's Guessing Game</a></li>
-                    <li class="dropdown-item"><a href="simple_caluculator.php">Simple Calculator</a></li>
-                    <li class="dropdown-item"><a href="grade_generator.php">Grade Generator</a></li> 
+                    <li class="dropdown-item"><a href="#">Simple Calculator</a></li>
+                    <li class="dropdown-item"><a href="#">Grade Generator</a></li> 
                 <li class="dropdown-header" id="python_dropdown_header">Programs Originally in Python</li>
                 <li class="dropdown-header" id="other_dropdown_header">Other Programs written to display other Skills</li>
                 <li class="dropdown-header" id="java_dropdown_header">Programs Originally in Java</li>
