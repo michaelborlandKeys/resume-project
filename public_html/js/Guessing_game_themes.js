@@ -1,11 +1,13 @@
-var  player = window.prompt("Please enter a Username, otherwise a default one is entered for you.","Player 1");
+var  player = window.prompt("Please enter a Username, otherwise a default one will be entered for you.","Player 1");
 var theme = "";
 var lastvisited_theme = ""; 
 var message_trigger="Tyler Borland";
 var birthday_trigger="Grandpa";
 var birthday_name="Gary Rewalt";
 var nickname ="Ty";
+var failed_entry="P1"; 
 var birthday_audio = document.getElementById("audio_test");
+
 
 function gameTitle()
 { 
@@ -17,7 +19,7 @@ function gameTitle()
 
  if(player == message_trigger || player == nickname)
   {
-      document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
+      document.getElementById("versus_player").innerHTML= "Michael's Guessing Game";
       document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
       document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
       //birthday_audio.play();
@@ -26,24 +28,27 @@ function gameTitle()
 }
 else if(player == birthday_trigger || player == birthday_name)
  {
-     document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
+     document.getElementById("versus_player").innerHTML= "Michael's Guessing Game";
      document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
      document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
      window.alert("Hi"+" "+player+" "+" "+"Hope you have Fun playing my Guessing Game, Happy Birthday Love Michael");
 
  }
 	 else if(player.length <= 15  && player.length >= 2)  {
-		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
+		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game";
 		document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
 		 document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
-		 window.alert("Success");
+		 window.alert("Hi"+" "+player+" "+"have fun playing Michael's Guessing Game"+" "+"on"+" "+Date());
 
 	}
 	 
 	else
 	{
-		
-		window.alert("Failed to enter a Username 5 to 10 long,Retry!");
+		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game";
+		document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+failed_entry;
+		 document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme;
+		window.alert("Failed to enter a Username 2 to 15 long,Retry!");
+
 		
 	}
 }
@@ -83,7 +88,7 @@ function halloweenTheme()
 	if(theme=="Halloween Theme")
 	{	
 		window.alert("Enjoy this Brand new "+theme+"!"+" "+"Happy Halloween"+" "+player); 
-		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's"; 
+		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game"; 
 	 document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
 		document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme; 
 		
@@ -123,7 +128,7 @@ lastvisited_theme="Halloween Theme";
 	if(theme=="Default Theme")
 	{	
 		window.alert("Hope you Enjoyed the "+lastvisited_theme+" "+"Welcome back to"+" "+theme+" "+player); 
-		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game's";
+		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game";
 			document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
 		 document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme; 
 
