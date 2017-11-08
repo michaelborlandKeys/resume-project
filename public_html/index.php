@@ -28,7 +28,7 @@
                     <li class="dropdown-item"><a href="#">Experience</a></li> 
                  <li class="dropdown-header" id="C_dropdown_header">Programs Originally Written in C#</li>
                     <li class="dropdown-item"><a href="guessing_game.php"> Michael's Guessing Game</a></li>
-                    <li class="dropdown-item"><a href="simple_calculator.php">Simple Calculator</a></li>
+                    <li class="dropdown-item"><a href="#">Simple Calculator</a></li>
                     <li class="dropdown-item"><a href="#">Grade Generator</a></li> 
                 <li class="dropdown-header" id="python_dropdown_header">Programs Originally in Python</li>
                 <li class="dropdown-header" id="other_dropdown_header">Other Programs written to display other Skills</li>
