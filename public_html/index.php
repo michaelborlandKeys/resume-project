@@ -22,7 +22,7 @@
                     <li class="dropdown-item"><a href="#">About Developer</a></li>
                     <li class="dropdown-item"><a href="#">Home</a></li>
                     <li class="dropdown-item"><a href="#">Experience</a></li> 
-                 <li class="dropdown-header">Programs Originally Written in C#</li>
+                 <li class="dropdown-header" id="C_dropdown_header">Programs Originally Written in C#</li>
                     <li class="dropdown-item"><a href="guessing_game.php"> Michael's Guessing Game</a></li>
                     <li class="dropdown-item"><a href="#">Simple Calculator</a></li>
                     <li class="dropdown-item"><a href="#">Grade Generator</a></li> 

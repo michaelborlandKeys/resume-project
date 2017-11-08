@@ -1,4 +1,4 @@
-
+/* Button interface style */
 .btn
 { 
 	font-size: 12px; 
@@ -6,13 +6,57 @@
     background-color:black;
   	color: cornsilk;
 }
-#main_dropdown_header
+/* dropdown-header style*/
+
+/*#main_dropdown_header
 {
-		border:2px solid black;
-		background: #B20000; 
-		color:white;
+
 }
 
+#python_dropdown_header
+{
+
+}
+
+#other_dropdown_header
+{
+
+
+}
+
+#java_dropdown_header
+{
+
+
+}
+#capstone_dropdown_header
+{
+
+
+}
+#college_dropdown_header
+{
+
+
+}
+#bottom_menu_header
+{
+
+}*/
+
+.dropdown-header
+{
+
+	border:2px solid black;
+	background: #B20000; 
+	color:white;
+}
+
+
+/*  end of dropdown-header style script*/
+
+
+/* Dropdown Button Style */
 .dropdown-menu
 {
 	background-color:lightgreen;
@@ -41,24 +85,11 @@
 
 
 }
-.dropdown-header
-{
-
-	border:2px solid black;
-	background: darkgreen; 
-	color:white;
-
-}
 .dropdown-item:hover
 {
 	background-color: darkgrey; 
-	
-
 }
 .dropdown-item a:hover
 {
 	color: #6773EB;
 }
-
-
-
