@@ -3,7 +3,10 @@
 <html lang="eng">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <!-- CSS files-->
+    <?php include("../resources/default_style_sheets.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/index_resume.css" />
     <title>Resume Index Michael M. B.</title>
 
 </head>
@@ -19,12 +22,13 @@
     
              <ul class="dropdown-menu">
                  <li class="dropdown-header" id="main_dropdown_header">Developer's Resume Information</li>
+                 	<li class="dropdown-item"><a href="index.php">Resume Index</a></li>
                     <li class="dropdown-item"><a href="#">About Developer</a></li>
                     <li class="dropdown-item"><a href="#">Home</a></li>
                     <li class="dropdown-item"><a href="#">Experience</a></li> 
                  <li class="dropdown-header" id="C_dropdown_header">Programs Originally Written in C#</li>
                     <li class="dropdown-item"><a href="guessing_game.php"> Michael's Guessing Game</a></li>
-                    <li class="dropdown-item"><a href="#">Simple Calculator</a></li>
+                    <li class="dropdown-item"><a href="simple_calculator.php">Simple Calculator</a></li>
                     <li class="dropdown-item"><a href="#">Grade Generator</a></li> 
                 <li class="dropdown-header" id="python_dropdown_header">Programs Originally in Python</li>
                 <li class="dropdown-header" id="other_dropdown_header">Other Programs written to display other Skills</li>
@@ -44,13 +48,9 @@
 
     <div id="script_loading">
          <!-- libraries i am loading with an include to make it less cluttered-->
-        <?php include("../resources/default_script_loading.php") ?>
+        <?php include("../resources/default_script_loading.php"); ?>
         <!--JavaScript I programmed -->
-           <!-- CSS files-->
-        <link rel="stylesheet" type="text/css" href="css/index_resume.css" />
-        <link rel="stylesheet" type="text/css" href="css/default.css" />
-
-       
+           
     </div>
 
 </body>

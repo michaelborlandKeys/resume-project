@@ -8,12 +8,16 @@
 }
 /* dropdown-header style*/
 
-/*#main_dropdown_header
+/*
+#main_dropdown_header 
 {
 
 }
-
 #python_dropdown_header
+{
+
+}
+#C_dropdown_header
 {
 
 }
@@ -47,9 +51,9 @@
 .dropdown-header
 {
 
-	border:2px solid black;
-	background: #B20000; 
-	color:white;
+	border:2px solid white;
+	background: black; 
+	color:cornsilk;
 }
 
 
@@ -63,6 +67,7 @@
 	padding-top: 0px; 
 	padding-bottom:0px;
 	text-decoration: none;
+	
 	
 }
 .dropdown-menu ul

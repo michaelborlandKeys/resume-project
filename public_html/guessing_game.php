@@ -2,7 +2,12 @@
 <html lang="eng">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+         <!-- CSS files-->    
+    <?php include("../resources/default_style_sheets.php"); ?>
+     <!--CSS style script files that give the default theme, if the theme is changed at any point, I use JavaScript to make the changes. -->
+        <link rel="stylesheet" type="text/css" href="css/guessing_game.css" />
+
     <title>Number Guessing Game</title>
 
 </head>
@@ -94,10 +99,7 @@
         <!--JavaScript files that run the Program -->
         <script src="js/Guessing_game.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/Guessing_game_themes.js" type="text/javascript" charset="utf-8"></script> 
-        <!--CSS style script files that give the default theme, if the theme is changed at any point, I use JavaScript to make the changes. -->
-        <link rel="stylesheet" type="text/css" href="css/guessing_game.css" />
-        <link rel="stylesheet" type="text/css" href="css/default.css" />
-
+       
     </div>
 
 </body>
