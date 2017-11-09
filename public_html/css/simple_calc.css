@@ -1,0 +1,169 @@
+#page_break
+{
+	
+	padding-top:35px;
+}
+/* general Calculator theme*/
+#calc_heading_label
+{
+	position: relative;
+	top:150px;
+	left:200px;
+	background-color:lightpink; 
+	border: 1px solid black; 
+	max-width: 400px;
+
+}
+
+#calulator_style
+{
+	position: relative;
+	top:142px;
+	left:200px;
+	min-height:300px;
+	min-width: 25px; 
+	max-width: 400px;
+	background-color:lightpink; 
+	border: 1px solid black; 
+    padding:50px;  
+}
+/* Calculator interface styling */
+#calculation
+{
+	position: absolute;
+	top: 0px;
+	left:75px;
+	
+}
+
+#button_7
+{
+	position: absolute;
+	top: 35px;
+	right:260px;
+	
+}
+
+#button_8
+{
+	position: absolute;
+	top: 35px;
+	right:185px;
+	
+}
+
+#button_9
+{
+	position: absolute;
+	top: 35px;
+	right:110px;
+	
+}
+#button_4
+{
+	position: absolute;
+	top: 95px;
+	right:260px;
+	
+}
+
+#button_5
+{
+	position: absolute;
+	top: 95px;
+	right:185px;
+	
+}
+#button_6
+{
+	position: absolute;
+	top: 95px;
+	right:110px;
+	
+}
+#button_1
+{
+	position: absolute;
+	top: 155px;
+	right:260px;
+	
+}
+#button_2
+{
+	position: absolute;
+	top: 155px;
+	right:185px;
+	
+}
+#button_3
+{
+	position: absolute;
+	top: 155px;
+	right:110px;
+	
+}
+
+#button_0
+{
+	position: absolute;
+	top: 215px;
+	right:185px;
+	
+}
+
+#button_clear
+{
+	position: absolute;
+	top: 215px;
+	right:260px;
+	
+}
+
+#button_decimal
+{
+	position: absolute;
+	top: 215px;
+	right:110px;
+	
+}
+
+#button_equals
+{
+	position: absolute;
+	top: 240px;
+	right:25px;
+
+}
+
+#button_addition
+{
+	position: absolute;
+	top: 180px;
+	right:25px;
+	
+}	
+
+#button_substraction
+{
+	position: absolute;
+	top: 120px;
+	right:25px;
+	
+}
+
+#button_multiplication
+{
+	position: absolute;
+	top: 60px;
+	right:25px;
+	
+}
+
+#button_division
+{
+	position: absolute;
+	top: 3px;
+	right:25px;
+	
+}
+
