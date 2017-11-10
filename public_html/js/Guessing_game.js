@@ -97,7 +97,7 @@ generate_new_number.on("click",generate_New_Target);
  	 	$('#player_input').val("Only enter numbers 1-99"); 
  	 	//console.log($('#player_input').val())
      guess_count++; 
-     number_of_guesses=guess_count
+     number_of_guesses=guess_count; 
     console.log("Guess Total "+number_of_guesses);
 
  	 }
