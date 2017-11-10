@@ -17,7 +17,7 @@
     </div>
         <div class="row" >
     <div class="col-sm-3 col-md-6 col-lg-12 dropdown" id="nav_button">
-    <button class="btn btn-lg btn-group dropdown-toggle" type="button" id="idex_menu" data-toggle="dropdown">Resume Site Index
+    <button class="btn btn-lg btn-group dropdown-toggle" type="button" id="idex_menu" data-toggle="dropdown">Resume Site Index test
     <span class="caret"></span></button>
     
              <ul class="dropdown-menu">
