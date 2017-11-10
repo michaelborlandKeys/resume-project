@@ -24,28 +24,45 @@
     <div class="row">
         <div class="calculator_form_structure" id="s_Calculator_form">
             <div class="calculator_label">
-                <h4 class="col-sm-3 col-md-6 col-lg-12 C_calculator" id="calc_heading_label">Simple Calculator<br /><small><em>(No order of operations, calculates in the order entered)</em></small></h4>
+                <h4 class="col-sm-3 col-md-6 col-lg-12 C_calculator" id="calc_heading_label">Simple Calculator<br /><small><em>(Single computation calculator)</em></small></h4>
             </div>
 
             <form  class="col-sm-3 col-md-6 col-lg-12 C_calculator C_calculator" id="calulator_style" accept-charset="utf-8">
-                <input type="text" name="calculation" class="col-sm-3 col-md-4 col-lg-7" id="calculation">
-                <button type="button" class="btn btn-lg btn-group" id="button_7">7</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_8">8</button>
-                <button type="button" class="btn btn-lg btn-group" id="button_9">9</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_4">4</button>
-                <button type="button" class="btn btn-lg btn-group" id="button_5">5</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_6">6</button>
-                <button type="button" class="btn btn-lg btn-group" id="button_3">3</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_2">2</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_1">1</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_0">0</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_decimal">.</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_clear">C</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_equals">=</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_addition">+</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_substraction">-</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_multiplication">*</button> 
-                <button type="button" class="btn btn-lg btn-group" id="button_division">/</button> 
+                <input type="text" name="calculation" class="col-sm-1 col-md-1 col-lg-3" id="calculation">
+                <select name="operations" id="calculation_3" size=1>
+                    <option value="+">+</option>
+                     <option value="-">-</option>
+                      <option value="*">*</option>
+                       <option value="/">/</option>
+                        <option value="SQR">SQR</option>
+
+    
+                </select> 
+                <label for="calculation_2" id="test"> Answer:</label>
+                 <input disabled type="text" name="calculation_2" class="col-sm-1 col-md-1 col-lg-6" id="calculation_2">
+                
+                 <input type="text" name="calculation_1" class="col-sm-1 col-md-1 col-lg-3" id="calculation_1">
+
+
+
+
+               <!--  <button type="button" class="btn btn-lg btn-group" id="button_7" onclick="btnClick_7()">7</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_8" onclick="btnClick_8()">8</button>
+                <button type="button" class="btn btn-lg btn-group" id="button_9" onclick="btnClick_9()">9</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_4" onclick="btnClick_4()">4</button>
+                <button type="button" class="btn btn-lg btn-group" id="button_5" onclick="btnClick_5()">5</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_6" onclick="btnClick_6()">6</button>
+                <button type="button" class="btn btn-lg btn-group" id="button_3" onclick="btnClick_3()">3</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_2" onclick="btnClick_2()">2</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_1" onclick="btnClick_1()">1</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_0" onclick="btnClick_0()">0</button>  -->
+                <!-- <button type="button" class="btn btn-lg btn-group" id="button_decimal" onclick="btnClick_Decimal()">.</button>  -->
+                <button type="button" class="btn btn-lg btn-group" id="button_clear" onclick="clear_btn()">C</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_equals" onclick="calculate()">=</button> 
+         <!--        <button type="button" class="btn btn-lg btn-group" id="button_addition" onclick="btnClick_Addition()">+</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_substraction" onclick="btnClick_Sub()">-</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_multiplication" onclick="btnClick_Moltiply()">*</button> 
+                <button type="button" class="btn btn-lg btn-group" id="button_division" onclick="btnClick_Divide()">/</button -->
 
 
             </form>
