@@ -63,7 +63,7 @@
               
                 
                 
-                 <input type="text" name="displayNum" class="col-sm-1 col-md-3 col-lg-7" id="calculation_input_full_simple" value="">
+                 <input type="text" name="displayNum" class="col-sm-1 col-md-3 col-lg-7" id="displayNum" value="">
 
                  <input type="button" class="btn btn-lg btn-group" name="button_7" id="button_7" value="7" onclick="btn_7()">
                  <input type="button" class="btn btn-lg btn-group" name="button_8" id="button_8" value="8" onclick="btn_8()" >
