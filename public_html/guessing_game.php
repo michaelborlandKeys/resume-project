@@ -13,9 +13,9 @@
 </head>
 <body>
     
-     
+      <?php include("../resources/nav_bar_resume.php"); ?>
     <div class="container" id="page-header">
-     <div class="row"> 
+     <div class="row page_headings"> 
         <h1>Number Guessing Game</h1>
     </div>
 <div class="row">

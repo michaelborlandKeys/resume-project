@@ -5,3 +5,52 @@ body
 	background-color: cornsilk; 
 
 }
+
+.page_headings
+{
+padding-top: 50px;
+	
+}
+
+
+.resume_nav 
+{ 
+	font-size: 12px; 
+    font-weight: bold; 
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: -15px;
+    min-height: 55px;
+    max-height: 60px
+
+}
+
+
+
+
+.resume_nav ul 
+{
+
+	padding: 3px 3px; 
+
+
+
+}
+.resume_nav li
+{
+	
+	padding: 5px; 
+
+}
+.dropdown
+{
+	display: inline;
+}
+
+.resume_nav a
+{
+	text-decoration: none;
+	color: white; 
+	padding: 3px 3px 3px 3px ;
+}
