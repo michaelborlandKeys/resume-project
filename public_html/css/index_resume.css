@@ -62,7 +62,7 @@
 
 
 /* Dropdown Button Style */
-.dropdown-menu
+.dropdown-menu 
 {
 	background-color:lightgreen;
 	padding-top: 0px; 
@@ -95,7 +95,5 @@
 {
 	background-color: darkgrey; 
 }
-.dropdown-item a:hover
-{
-	color: #6773EB;
-}
+
+

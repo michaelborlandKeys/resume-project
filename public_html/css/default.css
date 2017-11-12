@@ -11,6 +11,13 @@ body
 padding-top: 50px;
 	
 }
+.dropdown-header
+{
+
+	border:2px solid white;
+	background: black; 
+	color:cornsilk;
+}
 
 
 .resume_nav 
@@ -43,7 +50,7 @@ padding-top: 50px;
 	padding: 5px; 
 
 }
-.dropdown
+.dropdown 
 {
 	display: inline;
 }
@@ -51,5 +58,58 @@ padding-top: 50px;
 .resume_nav a
 {
 	text-decoration: none;
+	color: white;
 	padding: 3px 3px 3px 3px ;
+}
+
+.dropdown-menu 
+{
+	background-color:lightgreen;
+	padding-top: 0px; 
+	padding-bottom:0px;
+	text-decoration: none;
+	
+
+}	
+.
+
+.dropdown-menu li
+{
+	padding:3px;
+
+}
+
+.dropdown-menu a
+{
+	text-decoration:none;
+	color: black; 
+	padding: 3px 3px 3px 3px ;
+
+
+}
+.dropdown-item:hover
+{
+	background-color: darkgrey; 
+}
+.dropdown-item a:hover
+{
+	background-color: purple; 
+}
+
+.dropdown-menu ul
+{
+	padding:2px 2px;
+
+}
+
+.dropdown-menu li
+{
+	padding:3px;
+
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
+{
+	color:white;
+	
 }
