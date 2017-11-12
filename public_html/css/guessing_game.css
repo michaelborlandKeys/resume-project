@@ -64,30 +64,9 @@ color:#C62D42;
 	color: #fdeb00; 
 	opacity:.5;
 } 
-.dropdown-menu
-{
-	background-color:#C62D42;
-	
-}
 
-.dropdown-item
 
-{
-	color: #fdeb00; 
-}
-.dropdown-menu:hover
-{
-	background-color:black;
-	
-}
 
-.dropdown-item:hover
-
-{
-	background:black;
-	color: #fdeb00; 
-	opacity:.5;
-}
 
 .btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 

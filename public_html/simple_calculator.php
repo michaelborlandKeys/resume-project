@@ -11,9 +11,10 @@
 	<title>Simple Calculator</title>
 </head>
 <body>
+     <?php include("../resources/nav_bar_resume.php"); ?>
 	<div  class="container" id="calculator_page_container">
-       <div class=" row header_for_calculator">
-        <h1 class="default_page_headings" style="text-decoration: underline;">Simple Calculator</h1>
+       <div class="row header_for_calculator">
+        <h1 class="page_headings"  style="text-decoration: underline;">Simple Calculator</h1>
        </div> 
        <div class="col-sm-3 col-md-6 col-lg-12 calc_directions" id="calulator_description"> 
         <h2 class="calc_directions">Calculator Description </h2>

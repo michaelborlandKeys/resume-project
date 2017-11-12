@@ -8,6 +8,7 @@
 	<title>Home</title>
 </head>
 <body>
+     <?php include("../resources/nav_bar_resume.php"); ?>
 	<div id="under_contruction">
 
 

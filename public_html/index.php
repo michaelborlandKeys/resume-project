@@ -8,9 +8,10 @@
     <?php include("../resources/default_style_sheets.php"); ?>
     <link rel="stylesheet" type="text/css" href="css/index_resume.css" />
     <title>Resume Index Michael M. B.</title>
-
 </head>
+
 <body>
+   
 <div class="container">
      <div class="row"> 
          <h1 id="page-header" style="text-decoration: underline;"> Michael's Resume Index</h1>
