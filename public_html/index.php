@@ -14,7 +14,7 @@
    
 <div class="container">
      <div class="row"> 
-         <h1 id="page-header" style="text-decoration: underline;"> Michael's Resume Index</h1>
+         <h1 id="page-header" style="text-decoration: underline;"> Michael's Resume Index test</h1>
     </div>
         <div class="row" >
     <div class="col-sm-3 col-md-6 col-lg-12 dropdown" id="nav_button">
