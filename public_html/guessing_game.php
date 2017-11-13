@@ -16,11 +16,10 @@
       <?php include("../resources/nav_bar_resume.php"); ?>
     <div class="container" id="page-header">
      <div class="row page_headings"> 
-        <h1>Number Guessing Game</h1>
-    </div>
+        <h1 style= "text-decoration: underline;">Number Guessing Game</h1></div>
 <div class="row">
   <div class=" col-sm-3 col-md-6 col-lg-12" id="game_description">
-    <h4 class="below_header_container" style="text-decoration: underline;">Game Description</h4>
+    <h4 class="below_header_container" style="text-decoration: underline;"> Michael's Guessing Game Description</h4>
     <p> Game Development Started: 10/26/17 Last Updated:11/06/2017</p>
     <p>This Program was originally developed for my elective C# development class, it has been modified for the web and made much more user friendly.
         What has been added in short, form style customization,the number of guesses will be displayed if player presses answer,and once a person gets the correct answer the number of guesses to get the correct number will pop up and then window will close.

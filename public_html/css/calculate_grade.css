@@ -1,0 +1,85 @@
+#grade_book_form 
+{
+	position: relative;
+	top:142px;
+	left:0px;
+	min-height:150px;
+
+	max-width: 500px;
+	background-color:black; 
+	color:white; 
+	border: 6px solid grey;
+
+}
+
+#book_heading_label
+{
+	position: relative;
+	top:150px;
+	left:00px;
+	background-color:black;
+	color:white; 
+	border: 6px solid grey; 
+	max-width: 400px;
+
+}
+
+#grade_input_percentage
+{
+	position: absolute;
+	top:45px;
+	left:150px;
+
+
+}
+
+#input_1_label
+{
+	position: absolute;
+	left: 43px;
+	top:45px;
+
+}
+
+#grade_output
+{
+	position: absolute;
+	top:75px;
+	left:150px;
+
+
+}
+
+#output_1_label
+{
+	position: absolute;
+	left: 43px;
+	top:75px;
+
+}
+#gpa_output
+{
+	position: absolute;
+	top:105px;
+	left:150px;
+
+}
+
+#output_2_label
+
+{
+	position: absolute;
+	left: 43px;
+	top:110px;
+
+}
+
+#letter_grade_button
+{
+	position: absolute;
+	right: 60px;
+	bottom: 38px;
+	background-color: grey;
+	color:white;
+
+}

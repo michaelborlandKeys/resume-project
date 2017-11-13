@@ -14,10 +14,10 @@
    
 <div class="container">
      <div class="row"> 
-         <h1 id="page-header" style="text-decoration: underline;"> Michael's Resume Index test</h1>
+         <h1  class="page_headings" id="page-header" style="text-decoration: underline;"> Michael's Resume</h1>
     </div>
         <div class="row" >
-    <div class="col-sm-3 col-md-6 col-lg-12 dropdown" id="nav_button">
+    <div class="col-sm-5 col-md-5 col-lg-5" dropdown" id="nav_button">
     <button class="btn btn-lg btn-group dropdown-toggle" type="button" id="idex_menu" data-toggle="dropdown">Resume Site Index
     <span class="caret"></span></button>
     
@@ -30,7 +30,7 @@
                  <li class="dropdown-header" id="C_dropdown_header">Programs Originally Written in C#</li>
                     <li class="dropdown-item"><a href="guessing_game.php"> Michael's Guessing Game</a></li>
                     <li class="dropdown-item"><a href="simple_calculator.php">Simple Calculator</a></li>
-                    <li class="dropdown-item"><a href="#">Grade Generator</a></li> 
+                    <li class="dropdown-item"><a href="calculate_grade.php">Grade Generator</a></li> 
                 <li class="dropdown-header" id="python_dropdown_header">Programs Originally in Python</li>
                 <li class="dropdown-header" id="other_dropdown_header">Other Programs written to display other Skills</li>
                 <li class="dropdown-header" id="java_dropdown_header">Programs Originally in Java</li>
