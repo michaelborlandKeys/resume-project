@@ -41,7 +41,7 @@
 
 }
 
-#grade_output
+#grade_output_lettergrade
 {
 	position: absolute;
 	top:75px;
@@ -57,7 +57,7 @@
 	top:75px;
 
 }
-#gpa_output
+#grade_output_gpa
 {
 	position: absolute;
 	top:105px;
@@ -79,6 +79,16 @@
 	position: absolute;
 	right: 60px;
 	bottom: 38px;
+	background-color: grey;
+	color:white;
+
+}
+
+#letter_grade_clear
+{
+	position: absolute;
+	right: 83px;
+	bottom: 5px;
 	background-color: grey;
 	color:white;
 

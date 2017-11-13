@@ -27,10 +27,12 @@
 		     				<label  for="grade_input_percentage" id="input_1_label">Grade Percentage: </label>
 		     				<input type="text" class=" input_label" name="grade_input_percentage" id="grade_input_percentage" size=10>
 		     				<label  for="grade_output_lettergrade" id="output_1_label"> Your Letter Grade: </label>
-		     				<input disabled type="text" class="output_label_2" name="grade_output_lettergrade" id="grade_output" size=2>
-		     				<label  for="grade_output_gpa" id="output_2_label"> Your GPA: </label>
-		     				<input disabled type="text" class="output_label_2" name="grade_output_gpa" id="gpa_output" size=4>
+		     				<input disabled type="text" class="output_label_2" name="grade_output_lettergrade" id="grade_output_lettergrade" size=2>
+		     				<label   for="grade_output_gpa" id="output_2_label"> Your GPA: </label>
+		     				<input disabled type="text" class="output_label_2" name="grade_output_gpa" id="grade_output_gpa" size=4>
 		     				<button type="button" class="btn btn-sm" id="letter_grade_button" onclick="calculate_Letter_grade()"> Calculate</button>
+                                <button type="button" class="btn btn-sm" id="letter_grade_clear" onclick="clearGrades()"> Clear</button>
+
         				</form>	
 
 
