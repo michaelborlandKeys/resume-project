@@ -14,7 +14,7 @@
    
 <div class="container">
      <div class="row"> 
-         <h1  class="page_headings" id="page-header" style="text-decoration: underline;"> Michael's Resume test</h1>
+         <h1  class="page_headings" id="page-header" style="text-decoration: underline;"> Michael's Resume</h1>
     </div>
         <div class="row" >
     <div class="col-sm-5 col-md-5 col-lg-5" dropdown" id="nav_button">
