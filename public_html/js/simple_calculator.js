@@ -1,30 +1,6 @@
 
  var default_number_calculator = 0; 
-/*
-  var valid_number = $('#calculation_input_full_simple').val(); 
-  var regExpression_Calculator = /^\d{12}$/ ;
-  var valid_form = false; 
 
-  function validate_Calculator()
-  {
-  	 if(regExpression_Calculator.test(valid_number))
-        {
-            valid_form=true;
-          
-            console.log("valid input");
-
-        }
-        else
-        {
-            valid_form = false;
-          
-            $('#calculation_input_full_simple').val("Invalid Input");
-
-
-        }
-  }
-   var clickEquals_btn = $('#button_equals_full');
-  clickEquals_btn.on("click",validate_Calculator);*/
 
 
 function btn_1()
@@ -93,32 +69,11 @@ function btn_0()
 
 }
 
-function btn_add_plus(){
-
-	document.calc_forms.displayNum.value += "+"; 
-};
-
 function btn_add_decimal(){
 
 	document.calc_forms.displayNum.value += "."; 
 };
-function btn_add_Minus(){
 
-	document.calc_forms.displayNum.value += "-"; 
-};
-function btn_add_divide(){
-
-	document.calc_forms.displayNum.value += "/"; 
-};
-function btn_add_multiply(){
-
-	document.calc_forms.displayNum.value += "*"; 
-};
-
-function btn_clearing(){
-
-	document.calc_forms.displayNum.value = ""; 
-};
 
 
 function add_btn_equals() {
