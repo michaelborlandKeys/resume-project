@@ -12,11 +12,13 @@ position: relative;
 top:-16px;
 left:50px;
 padding-top: 15px;
-background-color:black; 
+background-color:grey; 
 color:white; 
 border:2px solid white;
-max-width:350px;
+max-width:450px;
 min-width: 250px;
+box-shadow: 5px 5px black;
+opacity: 2.0;
 	
 }
 .dropdown-header

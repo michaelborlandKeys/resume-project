@@ -1,0 +1,48 @@
+.animated_image_text
+{
+	min-width: 100px
+	min-height:75;
+	max-width: 650px
+	max-height:575px;
+	background-color:black;
+	color:yellow; 
+	text-shadow:  2px orange;
+	position: relative;
+	 -webkit-animation: under_contruction 10s running; /* Safari 4.0 - 8.0 */
+    animation: under_contruction 10s running;
+
+ 
+}
+
+@-webkit-keyframes under_contruction {
+    from {top: 0px; left:100px;}
+    to {left: 0px; top:400px; right:50px;bottom: 350px; background-color:black; color: white; font-size:5em; }
+}
+
+.animated_image_text:hover
+
+{
+	font-size: 7em;
+	min-width:450px; 
+	min-height:450px;
+}
+
+.animated_image_text:hover ,img:hover
+
+{
+	
+	min-width:400px; 
+	min-height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
