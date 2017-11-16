@@ -1,12 +1,10 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="eng">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <!-- CSS files-->
     <?php include("../resources/default_style_sheets.php"); ?>
-    <link rel="stylesheet" type="text/css" href="css/index_resume.css" />
     <title>Resume Index Michael M. B.</title>
 </head>
 
@@ -17,7 +15,7 @@
          <h1  class="page_headings" id="page-header" style="text-decoration: underline;"> Michael's Resume</h1>
     </div>
         <div class="row" >
-    <div class="col-sm-5 col-md-5 col-lg-5" dropdown" id="nav_button">
+            <div class="col-sm-5 col-md-5 col-lg-5 dropdown" id="nav_button">
     <button class="btn btn-lg btn-group dropdown-toggle" type="button" id="idex_menu" data-toggle="dropdown">Resume Site Index
     <span class="caret"></span></button>
     
@@ -35,18 +33,13 @@
                 <li class="dropdown-header" id="other_dropdown_header">Other Programs written to display other Skills</li>
                 <li class="dropdown-header" id="java_dropdown_header">Programs Originally in Java</li>
                 <li class="dropdown-header" id="capstone_dropdown_header">Capstone Project</li>
-             
-
                 <li class="dropdown-header" id="bottom_menu_header">Resume Site Updates/QnA</li>
-
-                
-
-        
-            </ul>
-
-    </div>
+          
+              </ul>
+          </div>
+          </div>    
         </div>
-            </div>
+
 
     <div id="script_loading">
          <!-- libraries i am loading with an include to make it less cluttered-->
@@ -57,5 +50,3 @@
 
 </body>
 </html>
-
-
