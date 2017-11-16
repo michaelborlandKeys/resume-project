@@ -1,93 +1,17 @@
 
  var default_number_calculator = 0; 
+ var first_number=   $('#Test_1').val();
+ var second_number= $('#calculation_1').val()
 
 
 
-function btn_1()
-{
 
-document.calc_forms.displayNum.value+="1"; 
-
-}
-
-function btn_2()
-{
-document.calc_forms.displayNum.value+="2"; 
-
-}
-
-function btn_3()
-{
-	document.calc_forms.displayNum.value+="3"; 
-
-}
-
-
-function btn_4()
-{
-	document.calc_forms.displayNum.value+="4"; 
-
-}
-
-
-
-function btn_5()
-{
-
-document.calc_forms.displayNum.value+="5"; 
-
-}
-
-function btn_6()
-{
-document.calc_forms.displayNum.value+="6"; 
-
-}
-
-function btn_7()
-{
-	document.calc_forms.displayNum.value+="7"; 
-
-}
-
-
-function btn_8()
-{
-	document.calc_forms.displayNum.value+="8"; 
-
-}
-function btn_9()
-{
-	document.calc_forms.displayNum.value+="9"; 
-
-}
-
-
-function btn_0()
-{
-	document.calc_forms.displayNum.value+="0"; 
-
-}
-
-function btn_add_decimal(){
-
-	document.calc_forms.displayNum.value += "."; 
-};
-
-
-
-function add_btn_equals() {
-//uses eval, which is not recommended for this, i am going to write a proper evaluate method. for short term convenience i am using eval
-
-	var equals_btn = eval(document.calc_forms.displayNum.value); 
-	document.calc_forms.displayNum.value = equals_btn;
-}
 
 
 
 function calculatorStart ()
 {
-	$('#calculation').val(default_number_calculator); 
+	$('#Test_1').val(default_number_calculator); 
 	$('#calculation_1').val(default_number_calculator); 
 	
 }
@@ -97,12 +21,17 @@ function calculatorStart ()
 calculatorStart (); 
 
 
+
+
+
+
+
 function calculate(expression_total)
 
 {
  
   
-var number_1 = $('#calculation').val(); 
+var number_1 = $('#Test_1').val(); 
 var number_2 = $('#calculation_1').val();
 
 var operation =$('#calculation_3').val();
@@ -164,6 +93,85 @@ else
   
 
 }
+
+
+function btn_1()
+{
+
+$(document).ready(function(){
+    $("button_1").click(function(){
+        $("#Test_1").append(function(){
+        
+        });
+    });
+});
+
+}
+
+function btn_2()
+{
+document.getElementById("Test_1").innnerHTML= value+"2"; 
+
+}
+
+function btn_3()
+{
+	document.calulator_style.calculation.value+="3"; 
+
+}
+
+
+function btn_4()
+{
+	document.calulator_style.calculation.value+="4"; 
+
+}
+
+
+
+function btn_5()
+{
+
+document.calulator_style.calculation.value+="5"; 
+
+}
+
+function btn_6()
+{
+document.calulator_style.calculation.value+="6"; 
+
+}
+
+function btn_7()
+{
+	document.calulator_style.calculation.value+="7"; 
+
+}
+
+
+function btn_8()
+{
+	document.calulator_style.calculation.value+="8"; 
+
+}
+function btn_9()
+{
+	document.calulator_style.displayNum.value+="9"; 
+
+}
+
+
+function btn_0()
+{
+	document.calulator_style.displayNum.value+="0"; 
+
+}
+
+function btn_add_decimal(){
+
+	document.calulator_style.displayNum.value += "."; 
+};
+
 
  function clear_btn()
  {

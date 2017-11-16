@@ -18,47 +18,23 @@
 
 }
 
-#calc_heading_full_simple
-{
-	position: relative;
-	top:310px;
-	left:200px;
-	background-color:darkgreen; 
-	color: white; 
-	border: 1px solid black; 
-	max-width: 425px;
-
-}
-
 
 #calulator_style
 {
 	position: relative;
 	top:142px;
 	left:200px;
-	min-height:200px;
-	min-width: 75px; 
+	min-height:300px;
+	min-width: 350px; 
 	max-width: 450px;
 	background-color:darkgreen; 
 	color:#CFB53B; 
 	border: 1px solid black; 
     padding:50px;  
 }
-#calc_forms
-{
-	position: relative;
-	top:300px;
-	left:200px;
-	min-height:300px;
-	min-width: 350px; 
-	max-width: 450px;
-	background-color:darkgreen; 
-	border: 1px solid black; 
-    padding:50px;  
-}
 
 /* Calculator interface styling */
-#calculation
+#Test_1
 {
 	text-align: right;
 	position: absolute;
@@ -66,13 +42,7 @@
 	left:20px;
 	
 }
-#displayNum
-{
-	text-align: right;
-	position: absolute;
-	top: 0px;
-	left:75px;
-}
+
 
 #calculation_1
 {
@@ -89,7 +59,7 @@
 	text-align: center;
 	position: absolute;
 	top: 0px;
-	left:110px;
+	left:127px;
 }
 
 #calculation_2
@@ -101,13 +71,7 @@
 	left:85px;
 }
 
-{
 
-	text-align: center;
-	position: absolute;
-	bottom: 0px;
-	left:85px;
-}
 #test
 {
 	text-align:left;
@@ -194,26 +158,12 @@
 	
 }
 
-#button_clear_full
-{
-	position: absolute;
-	top: 215px;
-	left:100px;
-	
-}
-#button_equals_full
-{
-	position: absolute;
-	bottom:5px;
-	right:25px;
-
-}
 
 #button_clear
 {
-	position: absolute;
-	top: 35px;
-	left:0px;
+		position: absolute;
+	top: 215px;
+	left:75px;
 	
 }
 
@@ -233,35 +183,4 @@
 
 }
 
-#button_addition
-{
-	position: absolute;
-	top: 180px;
-	right:25px;
-	
-}	
-
-#button_substraction
-{
-	position: absolute;
-	top: 120px;
-	right:25px;
-	
-}
-
-#button_multiplication
-{
-	position: absolute;
-	top: 60px;
-	right:25px;
-	
-}
-
-#button_division
-{
-	position: absolute;
-	top: 3px;
-	right:25px;
-	
-}
 
