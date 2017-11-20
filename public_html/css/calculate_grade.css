@@ -1,22 +1,19 @@
 #grade_book_form 
 {
 	position: relative;
-	top:142px;
-	left:0px;
 	min-height:150px;
-
 	max-width: 500px;
 	background-color:black; 
 	color:white; 
 	border: 6px solid grey;
+
 
 }
 
 #book_heading_label
 {
 	position: relative;
-	top:150px;
-	left:00px;
+	top:8px;
 	background-color:black;
 	color:white; 
 	border: 6px solid grey; 

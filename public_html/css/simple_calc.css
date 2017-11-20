@@ -9,29 +9,31 @@
 #calc_heading_label
 {
 	position: relative;
-	top:150px;
-	left:200px;
+	top:8px;
 	background-color:darkgreen;
 	color:#CFB53B; 
 	border: 1px solid black; 
 	max-width: 400px;
-
+	
 }
 
 
-#calulator_style
+#calulator_style 
 {
 	position: relative;
-	top:142px;
-	left:200px;
 	min-height:300px;
 	min-width: 350px; 
 	max-width: 450px;
 	background-color:darkgreen; 
 	color:#CFB53B; 
-	border: 1px solid black; 
-    padding:50px;  
+	border: 1px solid black;  
+
+	
+
+
+  
 }
+
 
 /* Calculator interface styling */
 #Test_1

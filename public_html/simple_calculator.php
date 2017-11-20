@@ -29,7 +29,7 @@
     <div class="row">
         <div class="calculator_form_structure" id="s_Calculator_form">
             <div class="calculator_label">
-                <h4 class="col-sm-3 col-md-6 col-lg-12 C_calculator" id="calc_heading_label">Simple Calculator<br /><small><em>(Single Expression Calculator, Keyboard entry only at the moment)</em></small></h4>
+                <h4 class="col-sm-3 col-md-6 col-lg-12" id="calc_heading_label">Simple Calculator<br /><small><em>(Single Expression Calculator, Keyboard entry only at the moment)</em></small></h4>
             </div>
 
             <form  class="col-sm-3 col-md-6 col-lg-12 C_calculator" name="calculator_style" id="calulator_style" >
@@ -53,7 +53,7 @@
                  <input disabled type="button" class="btn btn-lg btn-group" name="button_4" id="button_4" value="4" onclick="btn_4()" >
                  <input disabled type="button" class="btn btn-lg btn-group" name="button_5" id="button_5" value="5" onclick="btn_5()" >
                  <input disabled type="button" class="btn btn-lg btn-group" name="button_6" id="button_6"  value="6" onclick="btn_6()">
-                 <input  type="button" class="btn btn-lg btn-group" name="button_1" id="button_1" value="1" onclick="btn_1()" >
+                 <input disabled type="button" class="btn btn-lg btn-group" name="button_1" id="button_1" value="1" onclick="btn_1()" >
                  <input disabled type="button" class="btn btn-lg btn-group" name="button_2" id="button_2" value="2" onclick="btn_2()" >
                  <input disabled type="button" class="btn btn-lg btn-group" name="button_3" id="button_3" value="3" onclick="btn_3()" >
                  <input disabled type="button" class="btn btn-lg btn-group" name="button_0" id="button_0" value="0" onclick="btn_0()" >
