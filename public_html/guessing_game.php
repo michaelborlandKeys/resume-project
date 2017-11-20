@@ -18,7 +18,7 @@
      <div class="row page_headings"> 
         <h1 style= "text-decoration: underline;">Number Guessing Game</h1></div>
 <div class="row">
-  <div class=" col-sm-3 col-md-6 col-lg-12" id="game_description">
+  <div class="col-sm-3 col-md-6 col-lg-12" id="game_description">
     <h4 class="below_header_container" style="text-decoration: underline;"> Michael's Guessing Game Description</h4>
     <p> Game Development Started: 10/26/17 Last Updated:11/06/2017</p>
     <p>This Program was originally developed for my elective C# development class, it has been modified for the web and made much more user friendly.

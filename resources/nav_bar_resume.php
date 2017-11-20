@@ -1,5 +1,5 @@
 
-<div class="container">
+<div class="container col-sm-3 col-md-6 col-lg-12">
     <div class="row" >
         <div class="dropdown navigation">
             <nav class="resume_nav">
