@@ -37,12 +37,10 @@ opacity: 2.0;
     background-color: black;
     position: relative;
     top:0px;
-    left: -150px;
+    left: -110px;
     min-height: 55px;
     max-height: 60px
     min-width:100%;
-
-
 
 }
 
@@ -85,6 +83,9 @@ li.dropdown:hover
 	padding: 5px; 
 
 }
+
+
+
 .dropdown 
 {
 	display: inline;

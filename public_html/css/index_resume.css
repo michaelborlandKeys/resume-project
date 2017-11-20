@@ -1,4 +1,18 @@
 /* Button interface style */
+.button_menu_index
+{
+	position: relative;
+	top: 0px;
+	left: 115px; 
+
+}
+.dropdown-menu ul 
+{
+	position:relative;
+	top: 3px;
+	left: 125px;
+
+}
 .btn
 { 
 	font-size: 12px; 
@@ -6,6 +20,7 @@
     background-color:black;
   	color: cornsilk;
 }
+
 
 /* dropdown-header style*/
 
