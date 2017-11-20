@@ -66,7 +66,7 @@
     </div>
 </div>
 
-
+ <?php include("../resources/footer.php") ?>
  <div id="script_loading">
    
     <?php include("../resources/default_script_loading.php") ?>

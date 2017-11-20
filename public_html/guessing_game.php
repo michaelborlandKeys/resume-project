@@ -90,7 +90,7 @@
         </div>
     </div>
 
-
+     <?php include("../resources/footer.php") ?>
     <div id="script_loading">
         
 

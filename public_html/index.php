@@ -41,6 +41,7 @@
         </div>
 
 
+    <?php include("../resources/footer.php") ?>
     <div id="script_loading">
          <!-- libraries i am loading with an include to make it less cluttered-->
         <?php include("../resources/default_script_loading.php"); ?>

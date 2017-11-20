@@ -42,8 +42,12 @@
      </div>  
 
         </div>
+         <?php include("../resources/footer.php") ?>
     
-  <?php include("../resources/default_script_loading.php"); ?>
+ <div id="script_loading">
+    <?php include("../resources/default_script_loading.php") ?>
+        <!--JavaScript I programmed -->
   <script src="js/calculate_grade.js" type="text/javascript" charset="utf-8"></script>
+</div>
 </body>
 </html>

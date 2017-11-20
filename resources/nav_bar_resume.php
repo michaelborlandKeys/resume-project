@@ -1,7 +1,7 @@
 
 <div class="container">
     <div class="row" >
-        <div class="dropdown">
+        <div class="dropdown navigation">
             <nav class="resume_nav">
                 <ul>
                     <li class="dropdown">
