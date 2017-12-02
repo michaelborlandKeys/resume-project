@@ -149,14 +149,25 @@ li.dropdown:hover
 	color:white;
 	
 }
-.footer_section
+#footer_style 
 {
+ border-top: 1px solid black;
+
+}
+
+
+.footer_section footer,small
+{font-weight: bold;
 	position:relative;
 	bottom: 0px; 
 	left: 0px; 
-	border-top: 1px solid black; 
-    min-width: 100%;
-    text-align: left;
-    min-height: 1px;
+	min-width:100%; 
+	text-align: center;
+	padding: 15px;
+
     
 }
+
+
+
+

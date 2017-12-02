@@ -1,5 +1,8 @@
 
-
+.container 
+{
+	padding-bottom:25px;
+}
 #page_break
 {
 	
@@ -14,6 +17,7 @@
 	color:#CFB53B; 
 	border: 1px solid black; 
 	max-width: 400px;
+
 	
 }
 
@@ -25,12 +29,8 @@
 	min-width: 350px; 
 	max-width: 450px;
 	background-color:darkgreen; 
-	color:#CFB53B; 
-	border: 1px solid black;  
-
-	
-
-
+	color:#CFB53B;
+	border: 1px solid black; 
   
 }
 
@@ -184,5 +184,6 @@
 	right:0px;
 
 }
+
 
 

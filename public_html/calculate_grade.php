@@ -41,10 +41,6 @@
         </div>
      </div>  
      <div>
-
-
-     </div>
-
         </div>
          <?php include("../resources/footer.php") ?>
     
