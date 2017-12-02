@@ -31,15 +31,19 @@
 		     				<label   for="grade_output_gpa" id="output_2_label"> Your GPA: </label>
 		     				<input disabled type="text" class="output_label_2" name="grade_output_gpa" id="grade_output_gpa" size=4>
 		     				<button type="button" class="btn btn-sm" id="letter_grade_button" onclick="calculate_Letter_grade()"> Calculate</button>
-                                <button type="button" class="btn btn-sm" id="letter_grade_clear" onclick="clearGrades()"> Clear</button>
+                            <button type="button" class="btn btn-sm" id="letter_grade_clear" onclick="clearGrades()"> Clear</button>
 
-        				</form>	
+        				</form>	 
 
 
         		
         	</div>
         </div>
      </div>  
+     <div>
+
+
+     </div>
 
         </div>
          <?php include("../resources/footer.php") ?>
