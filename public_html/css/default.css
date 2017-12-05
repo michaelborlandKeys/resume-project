@@ -6,11 +6,19 @@ body
 
 }
 
+
+.container 
+{
+	
+	padding-bottom:25px;
+
+}
+
 .page_headings 
 {
 position: relative;
-top:2px;
-left:50px;
+top:0px;
+left:30%;
 padding-top: 15px;
 background-color:grey; 
 color:white; 
@@ -39,6 +47,7 @@ z-index: -1;
     position:relative;
     top:0px;
     left: 0px;
+    min-width: 100%; 
 	min-height:5%;
 	max-height: 7%;  
 
@@ -157,7 +166,9 @@ li.dropdown:hover
 
 
 .footer_section footer,small
-{font-weight: bold;
+{
+	
+	font-weight: bold;
 	position:relative;
 	bottom: 0px; 
 	left: 0px; 
@@ -165,7 +176,6 @@ li.dropdown:hover
 	text-align: center;
 	padding: 15px;
 
-    
 }
 
 
