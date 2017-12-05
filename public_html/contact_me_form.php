@@ -15,7 +15,7 @@
         <small>(Have not set up email server for this to send me an email automatically, but i will receive these offers quickly.)</small>
        </div>       
     <div class="row">
-        <div class="email_form_structure" id="email_form">
+        <div class="email_form_structure" id="email_for5m">
 
             <form  class="col-sm-3 col-md-6 col-lg-12 C_calculator" name="email_style" id="email_style" >
             	<label class="toResumeAdmin" for="To">To:</label>
