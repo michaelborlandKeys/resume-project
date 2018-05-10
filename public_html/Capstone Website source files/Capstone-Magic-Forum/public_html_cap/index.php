@@ -134,6 +134,13 @@
 	        	<td class="color_1"><a href="user_guide.php">User Guide</a></td>
 	        	<td class="color_2">View Site Tutorial</td>
 	        </tr>
+	        <tr>
+
+	        	<td class="color_1"><a href="../../../index.php">Resume Index</a></td>
+	        	<td class="color_2">Resume site Index link </td>
+	        </tr>
+	        
+
 	        
 	       
 
