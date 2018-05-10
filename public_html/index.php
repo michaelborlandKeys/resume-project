@@ -34,7 +34,6 @@
                 <li class="dropdown-header" id="java_dropdown_header">Programs Originally in Java</li>
                 <li class="dropdown-header" id="capstone_dropdown_header">Capstone Project</li>
 				 <li class="dropdown-item"><a href="Capstone Website source files/Capstone-Magic-Forum/public_html_cap/index.php">Capstone Home</a></li> 
-				
                 <li class="dropdown-header" id="bottom_menu_header">Resume Site Updates/QnA</li>
           
               </ul>
