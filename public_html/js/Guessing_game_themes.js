@@ -87,7 +87,7 @@ function halloweenTheme()
 
 	if(theme=="Halloween Theme")
 	{	
-		window.alert("Enjoy this Brand new "+theme+"!"+" "+"Happy Halloween"+" "+player); 
+		window.alert("Enjoy the "+theme+"!"+" "+" "+player); 
 		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game"; 
 	 document.getElementById("test_player_heading").innerHTML="Current Player:"+" "+player;
 		document.getElementById("test_theme_heading").innerHTML="Current Theme:"+" "+theme; 
