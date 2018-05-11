@@ -30,3 +30,5 @@ public_html/Capstone Website source files/Capstone-Magic-Forum/resources/db_setu
 resources/db_setup.php
 public_html/Capstone Website source files/capstone_user_db.sql
 public_html/Capstone Website source files/test_user.sql
+public_html/Capstone_Website_source_files/Capstone-Magic-Forum/resources/db_setup.php
+*.sql
