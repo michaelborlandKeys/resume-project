@@ -78,8 +78,9 @@
                                 Custom Themes
                             </button>
                             <div class="dropdown-menu" aria-labelledby="themeDropDownButtons">
-                                <button type="button" class="dropdown-item" onclick="defaultTheme()"> Default Theme</button>
+                                <button type="button" class="dropdown-item" onclick="darkTheme()"> Dark Theme </button>
                                 <button type="button" class="dropdown-item" onclick="halloweenTheme()">Halloween Theme</button>
+                                 <button type="button" class="dropdown-item" onclick="darkTheme()"</button>
                             </div>
                         </div>
 

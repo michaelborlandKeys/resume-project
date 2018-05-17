@@ -11,7 +11,7 @@ var birthday_audio = document.getElementById("audio_test");
 
 function gameTitle()
 { 
-	theme="Default Theme"; 
+	theme="Dark Theme"; 
 	$('#player_input').val(""); 
 	$('#Michael_number').val(""); 
 
@@ -95,11 +95,11 @@ function halloweenTheme()
 	}
 }
 
-function defaultTheme()
+function darkTheme()
 
 {
 
-theme="Default Theme"; 
+theme="Dark Theme"; 
 lastvisited_theme="Halloween Theme"; 
  
 	$("#versus_player").css({"color": "#fdeb00"});
@@ -125,7 +125,7 @@ lastvisited_theme="Halloween Theme";
 
 	// end of css script 
 
-	if(theme=="Default Theme")
+	if(theme=="Dark Theme")
 	{	
 		window.alert("Hope you Enjoyed the "+lastvisited_theme+" "+"Welcome back to"+" "+theme+" "+player); 
 		document.getElementById("versus_player").innerHTML= "Michael's Guessing Game";
