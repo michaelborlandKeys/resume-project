@@ -78,7 +78,7 @@
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="themeDropDownButtons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Custom Themes
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="themeDropDownButtons">
+                            <div class="dropdown-menu"id="dropdown_changing" aria-labelledby="themeDropDownButtons">
                                 <button type="button" class="dropdown-item" onclick="defaultTheme()"> Default Theme </button>
                                 <button type="button" class="dropdown-item" onclick="halloweenTheme()">Halloween Theme</button>
                                 <button type="button" class="dropdown-item" onclick="darkTheme()">Dark Theme</button>
