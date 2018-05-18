@@ -2,67 +2,68 @@
 
 #test_theme_heading
 {
-	color:green; 
+	color:#C62D42; 
 
 }
 #test_player_heading
 {
-	color: white; 
+	color: #C62D42; 
 
 }
 #versus_player
 { 
-	color: #fdeb00; 
+	color: #C62D42; 
 }
 .modal-header
 {
-	background-color: black; 
+	background-color: #ffe6e6; 
 	border-bottom: white 1px solid;
 }
 
 .modal-body
 {
-	background-color: black; 
+	background-color: #ffe6e6; 
 	color:#C62D42;
 }
 .modal-footer
 {
 	border-color: white; 
-	background-color: black;
+	background-color:  #ffe6e6;
 }
 .modal-content
 {
-	background-color: black; 
+	background-color:  #ffe6e6; 
 }
 .close
 {
-	color: #fdeb00;
+	color: #C62D42;
 }
 
 .close:hover
 {
-color:#C62D42;
+color:black;
 
 }
 
 .btn
 {
-	background-color:#C62D42;
-	color: #fdeb00; 
-	opacity:.8; 
+	background-color:white;
+	color: black; 
+	 
 } 
 .btn:visited
 {
-	background-color:#C62D42;
-	color: #fdeb00; 
-	opacity:.8; 
+	background-color: white;
+	color: #C62D42; 
+	opacity:.6;  
 } 
 
 .btn:hover
 {
-	background-color:#C62D42;
-	color: #fdeb00; 
-	opacity:.5;
+	background-color:white;
+	color: #C62D42;
+	opacity:.7; 
+	
 } 
 
 
@@ -70,9 +71,28 @@ color:#C62D42;
 
 .btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 
-	background-color:#C62D42;
-	color: #fdeb00; 
-	opacity:.5;
+	background-color:white;
+	color: black; 
+	
 }
+
+.dropdown-menu 
+{
+	background-color:#ffe6e6;
+	padding-top: 0px; 
+	padding-bottom:0px;
+	max-height: 105px; 
+	text-decoration: none;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	
+}
+
+.dropdown-item:hover
+{
+	background-color:white; 
+	color: #C62D42;
+}
+
 
 

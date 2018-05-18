@@ -78,7 +78,7 @@ generate_new_number.on("click",generate_New_Target);
        guess_count++; 
        number_of_guesses=guess_count; 
       console.log("Guess Total "+number_of_guesses);
-      window.alert("It took you"+" "+number_of_guesses+" "+"Guesses to Find Mikes Number: "+mikes_target+"Congratulations"); 
+      window.alert("It took you"+" "+number_of_guesses+" "+"Guesses to Find Mikes Number: "+mikes_target+" "+"Congratulations!"); 
         $('#play_guessing_game').modal('hide');
         $('#player_input').val(""); 
         $('#Michael_number').val("");

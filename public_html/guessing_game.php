@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
          <!-- CSS files-->    
+    
     <?php include("../resources/default_style_sheets.php"); ?>
      <!--CSS style script files that give the default theme, if the theme is changed at any point, I use JavaScript to make the changes. -->
         <link rel="stylesheet" type="text/css" href="css/guessing_game.css" />
@@ -78,9 +79,9 @@
                                 Custom Themes
                             </button>
                             <div class="dropdown-menu" aria-labelledby="themeDropDownButtons">
-                                <button type="button" class="dropdown-item" onclick="darkTheme()"> Dark Theme </button>
+                                <button type="button" class="dropdown-item" onclick="defaultTheme()"> Default Theme </button>
                                 <button type="button" class="dropdown-item" onclick="halloweenTheme()">Halloween Theme</button>
-                                 <button type="button" class="dropdown-item" onclick="darkTheme()"</button>
+                                <button type="button" class="dropdown-item" onclick="darkTheme()">Dark Theme</button>
                             </div>
                         </div>
 
